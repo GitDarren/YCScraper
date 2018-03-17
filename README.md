@@ -6,7 +6,7 @@
 
 ### Homework Assignment for UT Coding Bootcamp - Austin
 
-In this assignment, I've built a web scraper that captures the headlines from Hacker News and populates the DOM.  The user can click on the link and save the article, attached a note, unsave the artcile and delete the note. 
+In this assignment, I've built a web scraper that captures the headlines from Hacker News and populates the DOM.  The user can click on the link and save the article, attached a note, unsave the artcile and delete the note.
 
 * This is a scraper using MongoDB, Mongoose, Express, Handlebars, and Cheerio.
 * Will follow the MVC design pattern.
@@ -32,6 +32,7 @@ In this assignment, I've built a web scraper that captures the headlines from Ha
 
 ## Node Packages
 
+* Axios
 * Express
 * Express-Handlebars
 * Body-parser
