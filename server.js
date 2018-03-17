@@ -23,12 +23,12 @@ const app = express();
 
 
 //Setting up the database
-const config = require("./config/database");
+const config = require("./config/database.js");
 mongoose.Promise = Promise;
 mongoose
     .connect(config.database)
     .then( result => {
-        console.log(`Connected to the database '${result.connection[0].name}' 
+        console.log(`Connected to the database '${result.connections[0].name}' 
         on ${result.connections[0].host}:${result.connections[0].port}`)
     })
     .catch(err => console.log("There was an error with your connection:" , err));
